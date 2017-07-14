@@ -15,7 +15,7 @@ So I tunes and arrived at values close to half of the max accelerations.
 
 With these parameters, RMSE was reducing but was not less than the required.
 I tuned the intial P_covariance matrix values t obtain the required RMSE values.
-0.15,0,0,0,0,
+P = 0.15,0,0,0,0,
 0,0.15,0,0,0,
 0,0,0.5,0,0,
 0,0,0,1.1,0,
