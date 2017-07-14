@@ -2,16 +2,16 @@
 SDC Term 2 Project 2
 
 The code from lessons were helpful.
-RMSE obtained for Dataset 1 (0.0661, 0.0856, 0.2887, 0.2182).
-RMSE obtained for Dataset 2 (0.0762, 0.0622, 0.5363, 0.2080).
+* RMSE obtained for Dataset 1 (0.0661, 0.0856, 0.2887, 0.2182).
+* RMSE obtained for Dataset 2 (0.0762, 0.0622, 0.5363, 0.2080).
 
 For tuning process noise parameters, I calculated the maximum logitudinal and angular acceleration from the dataset 1.
-Max Longitudinal Acceleration - 1.00 m/s^2.
-Max Angular Acceleration - 0.55 rad/s^2.
+* Max Longitudinal Acceleration - 1.00 m/s^2.
+* Max Angular Acceleration - 0.55 rad/s^2.
 
 So I tunes and arrived at values close to half of the max accelerations.
-stda = 0.44.
-stdyawdd = 0.275.
+* stda = 0.44.
+* stdyawdd = 0.275.
 
 With these parameters, RMSE was reducing but was not less than the required.
 I tuned the intial P_covariance matrix values t obtain the required RMSE values.
